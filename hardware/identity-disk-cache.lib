@@ -1,0 +1,104 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Mechanical:MountingHole
+#
+DEF Mechanical:MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Switch:SW_Push
+#
+DEF Switch:SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# identity-disk:digispark
+#
+DEF identity-disk:digispark U 0 40 Y Y 1 F N
+F0 "U" -500 400 50 H V C CNN
+F1 "identity-disk:digispark" -400 -400 50 H V C CNN
+F2 "" 500 50 50 H I C CNN
+F3 "" 500 50 50 H I C CNN
+DRAW
+S -300 200 -550 -200 0 1 0 N
+S -550 350 500 -350 1 1 0 N
+X 5V 1 100 -550 200 U 50 50 1 1 w
+X GND 2 200 -550 200 U 50 50 1 1 W
+X VIN 3 300 -550 200 U 50 50 1 1 W
+X P0 4 700 -250 200 L 50 50 1 1 B
+X P1 5 700 -150 200 L 50 50 1 1 B
+X P2 6 700 -50 200 L 50 50 1 1 B
+X P3 7 700 50 200 L 50 50 1 1 B
+X P4 8 700 150 200 L 50 50 1 1 B
+X P5 9 700 250 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# identity-disk:ledring
+#
+DEF identity-disk:ledring U 0 40 Y Y 1 F N
+F0 "U" -550 700 50 H V C CNN
+F1 "identity-disk:ledring" -500 -750 50 H V C CNN
+F2 "" 400 1300 50 H I C CNN
+F3 "" 400 1300 50 H I C CNN
+DRAW
+C 0 0 500 0 1 0 N
+C 0 0 750 0 1 0 N
+X 5V 1 -950 -50 200 R 50 50 1 1 W
+X GND 2 -950 50 200 R 50 50 1 1 W
+X DIN 3 950 -50 200 L 50 50 1 1 I
+X DOUT 4 950 50 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# identity-disk:lilypad
+#
+DEF identity-disk:lilypad B 0 40 Y Y 1 F N
+F0 "B" 0 300 50 H V C CNN
+F1 "identity-disk:lilypad" 0 -350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -750 250 750 -250 0 1 0 N
+X GND 1 950 150 200 L 50 50 1 1 w
+X GND 2 950 -150 200 L 50 50 1 1 w
+X 5V 3 -950 150 200 R 50 50 1 1 w
+X GND 4 -950 -150 200 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
