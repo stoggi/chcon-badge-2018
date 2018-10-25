@@ -5,7 +5,7 @@ Made by [@jsstott](https://twitter.com/jsstott) and [@ryankurte](https://twitter
 
 ## Assmebling your badge
 
-See [ASSEMBLY.md](ASSEMBLY.md) for instructions, and ask in the [#badge](https://chcon-nz.slack.com/messages/C5QHKAY8H) channel in the [CHCon-NZ](https://join.slack.com/chcon-nz/shared_invite/MjA1MjM5NjY5ODQzLTE0OTg3MDAxOTEtNDUwZTMwMmEwYQ) Slack workspace for help.
+See [ASSEMBLY.md](ASSEMBLY.md) for instructions, and ask in the [#badge](https://chcon-nz.slack.com/messages/CDN6BFPEV) channel in the [CHCon-NZ](https://join.slack.com/chcon-nz/shared_invite/MjA1MjM5NjY5ODQzLTE0OTg3MDAxOTEtNDUwZTMwMmEwYQ) Slack workspace for help.
 
 ## Programming your badge
 
