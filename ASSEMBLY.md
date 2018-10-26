@@ -52,7 +52,7 @@ On six of the single pin headers, cut off the shorter end with the side cutters.
 ## Step 4
 
 Peel the backing off the acrylic disk.
-Place the six pins in the disk as shown.
+Place the six pins in the disk as shown. You could use tape to keep them in place, on the flush side.
 
 ![acrylic-disk](images/step4.jpg)
 
@@ -90,6 +90,8 @@ Place the 2-pin, and two 3-pin headers into the disk as shown
 
 
 ## Step 8
+
+Before pushing the attiny85 board down, just make sure the pins that connected the LED ring don't come out past the disk. You could put some tape down to separate the disk and the attiny. If the pin pierces the soldermask on the attiny it might connect 5V to GND.
 
 Push the attiny85 board onto the pins, and solder.
 
