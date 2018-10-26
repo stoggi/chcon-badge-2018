@@ -15,6 +15,9 @@ void setup() {
   data[14] = 0x00; // ?
   data[15] = 0x00; // ?
 
+  // You will also need to know this:
+  // data[14] + data[15] = 225
+
   // Perform a crc-8 on the data
   crc = CRC8(data, 16);
 
